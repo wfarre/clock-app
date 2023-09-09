@@ -1,7 +1,7 @@
-// import Ipbase from "./node_modules/@everapi/ipbase-js/index.js";
+import Ipbase from "/node_modules/@everapi/ipbase-js/index.js";
 // import dotenv from "../../node_modules/dotenv/lib/main";
 // import { require } from "../node_modules/requirejs/require.js";
-import Ipbase from "@everapi/ipbase-js";
+// import Ipbase from "@everapi/ipbase-js";
 require(["dotenv"]).config();
 
 const header = document.getElementById("header");
