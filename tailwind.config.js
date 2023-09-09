@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     colors: {
       grey: "#303030",
@@ -12,12 +12,12 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "day-bg-desktop": "url('/src/assets/desktop/bg-image-daytime.jpg')",
-        "night-bg-desktop": "url('/src/assets/desktop/bg-image-nightime.jpg')",
-        "day-bg-tablet": "url('/src/assets/tablet/bg-image-daytime.jpg')",
-        "night-bg-tablet": "url('/src/assets/tablet/bg-image-nightime.jpg')",
-        "day-bg-mobile": "url('/src/assets/mobile/bg-image-daytime.jpg')",
-        "night-bg-mobile": "url('/src/assets/mobile/bg-image-nightime.jpg')",
+        "day-bg-desktop": "url('/assets/desktop/bg-image-daytime.jpg')",
+        "night-bg-desktop": "url('/assets/desktop/bg-image-nightime.jpg')",
+        "day-bg-tablet": "url('/assets/tablet/bg-image-daytime.jpg')",
+        "night-bg-tablet": "url('/assets/tablet/bg-image-nightime.jpg')",
+        "day-bg-mobile": "url('/assets/mobile/bg-image-daytime.jpg')",
+        "night-bg-mobile": "url('/assets/mobile/bg-image-nightime.jpg')",
       },
     },
   },

@@ -1,4 +1,4 @@
-import Ipbase from "/../../node_modules/@everapi/ipbase-js/index.js";
+import Ipbase from "./node_modules/@everapi/ipbase-js/index.js";
 // import dotenv from "../../node_modules/dotenv/lib/main";
 // import { require } from "../node_modules/requirejs/require.js";
 require(["dotenv"]).config();
